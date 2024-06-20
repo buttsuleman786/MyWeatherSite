@@ -15,15 +15,20 @@ h2
     color: black;
 }
 h2:hover {
-    color: rgb(110, 149, 212); /* Color on hover */
+    color: rgb(0, 0, 0); /* Color on hover */
     transform: scale(1.2); /* Scale the element on hover */
 
 }
 p
 {
     font-weight: bold;
+    text-align: center;
+    color: black;
 }
-
+p:hover {
+    color: rgb(0, 0, 0); /* Color on hover */
+    transform: scale(1.2); /* Scale the element on hover */
+}
 body
 {   
     background-image: url('https://i.pinimg.com/originals/9c/bd/67/9cbd67b19efb3f6b10a9c8a00e256f0d.jpg');
